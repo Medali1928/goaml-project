@@ -7,7 +7,7 @@ import os
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from src.config import DB_CONFIG
+from src.config import DB_CONFIG, TREANSACTION_CODE
 from src.model.get_client import GetClient
 from src.controller.transaction_router import TransactionRouter
 from src.helpers.utils import write_transaction_details_to_xml
@@ -19,7 +19,7 @@ YEAR = 2024
 START_BALANCE = 1000.0
 
 get_client = GetClient(DB_CONFIG)
-transaction_router = TransactionRouter(DB_CONFIG)
+transaction_router = TransactionRouter(DB_CONFIG, TREANSACTION_CODE)
 
 account_correspondences, account_details, customer_id, account_type, account_rp = \
     get_client.get_client_details(ACCOUNT_NUMBER)
