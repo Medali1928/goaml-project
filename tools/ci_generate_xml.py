@@ -19,7 +19,7 @@ YEAR = 2024
 START_BALANCE = 1000.0
 
 get_client = GetClient(DB_CONFIG)
-transaction_router = TransactionRouter(DB_CONFIG, TREANSACTION_CODE)
+transaction_router = TransactionRouter(TREANSACTION_CODE, DB_CONFIG)
 
 account_correspondences, account_details, customer_id, account_type, account_rp = \
     get_client.get_client_details(ACCOUNT_NUMBER)
