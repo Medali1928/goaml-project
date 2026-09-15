@@ -1,0 +1,65 @@
+name: CI - Build & Validate goAML
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    services:
+      sqlserver:
+        image: mcr.microsoft.com/mssql/server:2022-latest
+        env:
+          ACCEPT_EULA: "Y"
+          MSSQL_SA_PASSWORD: ${{ secrets.MSSQL_SA_PASSWORD }}
+        ports:
+          - 1433:1433
+        options: >-
+          --health-cmd "exit 0"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 10
+
+    steps:
+      - name: Checkout du code
+        uses: actions/checkout@v4
+
+      - name: Installer le driver ODBC
+        run: |
+          curl -sSL -O https://packages.microsoft.com/keys/microsoft.asc
+          sudo apt-key add microsoft.asc
+          curl -sSL -O https://packages.microsoft.com/config/ubuntu/22.04/prod.list
+          sudo mv prod.list /etc/apt/sources.list.d/mssql-release.list
+          sudo apt-get update
+          sudo ACCEPT_EULA=Y apt-get install -y msodbcsql17 unixodbc-dev
+
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Installer les dependances
+        run: pip install -r requirements_docker.txt
+
+      - name: Attendre que SQL Server soit pret
+        run: sleep 30
+
+      - name: Recreer la base MISDW (schema + donnees mock)
+        run: |
+          sqlcmd -S localhost -U sa -P "${{ secrets.MSSQL_SA_PASSWORD }}" -i recreate_misdw.sql -C || \
+          apt-get install -y mssql-tools18 --allow-unauthenticated || true
+
+      - name: Generer le XML de test
+        env:
+          DB_SERVER: localhost
+          DB_DATABASE: MISDW
+          DB_USERNAME: mis_amrihani
+          DB_PASSWORD: mis_amrihani
+        run: python tools/ci_generate_xml.py
+
+      - name: Valider le XML contre le schema goAML
+        run: python tools/validate_goaml_xml.py output/5009000004100/5009000004100_2024.xml goAMLSchemaNew.xsd
