@@ -28,14 +28,15 @@ jobs:
       - name: Checkout du code
         uses: actions/checkout@v4
 
-      - name: Installer le driver ODBC
+      - name: Installer le driver ODBC et sqlcmd
         run: |
           curl -sSL -O https://packages.microsoft.com/keys/microsoft.asc
           sudo apt-key add microsoft.asc
           curl -sSL -O https://packages.microsoft.com/config/ubuntu/22.04/prod.list
           sudo mv prod.list /etc/apt/sources.list.d/mssql-release.list
           sudo apt-get update
-          sudo ACCEPT_EULA=Y apt-get install -y msodbcsql17 unixodbc-dev
+          sudo ACCEPT_EULA=Y apt-get install -y msodbcsql17 unixodbc-dev mssql-tools18
+          echo "/opt/mssql-tools18/bin" >> $GITHUB_PATH
 
       - name: Installer Python
         uses: actions/setup-python@v5
@@ -49,9 +50,7 @@ jobs:
         run: sleep 30
 
       - name: Recreer la base MISDW (schema + donnees mock)
-        run: |
-          sqlcmd -S localhost -U sa -P "${{ secrets.MSSQL_SA_PASSWORD }}" -i recreate_misdw.sql -C || \
-          apt-get install -y mssql-tools18 --allow-unauthenticated || true
+        run: sqlcmd -S localhost -U sa -P "${{ secrets.MSSQL_SA_PASSWORD }}" -i recreate_misdw.sql -C
 
       - name: Generer le XML de test
         env:
