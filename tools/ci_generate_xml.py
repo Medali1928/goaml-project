@@ -10,8 +10,8 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')
 from src.config import DB_CONFIG
 from src.model.get_client import GetClient
 from src.controller.transaction_router import TransactionRouter
-from src.helpers.xmlStructure import write_transaction_details_to_xml
-from app.utils import update_balances  # ajuster si le chemin reel differe
+from src.helpers.utils import write_transaction_details_to_xml
+from src.helpers.balance_calculator import update_balances
 import pandas as pd
 
 ACCOUNT_NUMBER = "5009000004100"
