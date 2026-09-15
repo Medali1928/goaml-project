@@ -1,0 +1,17 @@
+# Environnements Python
+__pycache__/
+*.pyc
+.venv/
+env/
+
+# Sorties générées
+output/
+
+# Fichiers Docker/OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+# Secrets
+.env

@@ -1,0 +1,558 @@
+TCD24	TCDEQU	T24DESC	AVFLG
+LNW 	370	Placement                                                   	 
+1001	009	Versement especes meme agence                               	 
+1002	014	Versement especes autre agence                              	 
+1003	040	Alimentation Caisse/Versement especes en dev               	 
+1004	040	Alimentation Caisse/Versement especes en dev               	 
+1005	040	Alimentation Caisse/Versement especes mme a               	 
+1006	202	Annulation versmt esp. sur GAB/Versement especes mme a    	 
+1007	171	Vers especes BQE a Domicile                                 	0
+1008	134	Vers TND sur cpt TNC meme ag                                	 
+1009	040	Alimentation Caisse                                         	 
+1010	040	Alimentation Caisse/Retrait especes mme age               	 
+1011	040	Alimentation Caisse/Retrait especes mme age               	 
+1012	179	Retrait Cheque meme agence                                  	 
+1013	067	Retrait especes meme agence                                 	 
+1014	137	Ch}que deplac{/Retrait especes en devis                    	 
+1015	121	Retrait especes autre agence                                	 
+1016	170	Retrait chq  mm ag sur cpte en dev                          	 
+1017	001	Retrait Ch}que/Retrait especes en devis                    	 
+1018	001	Retrait esp}ces/Retrait especes mme age                   	 
+1019	001	Retrait esp}ces/Retrait especes mme age                   	 
+1020	138	Retrait Cheque meme agence                                  	 
+1021	001	Retrait esp}ces/Retrait especes en devis                   	 
+1022	137	Retrait Cheque autre agence                                 	 
+1023	080	Ch}que deplac{                                              	 
+1024	001	Retrait esp}ces                                             	 
+1025	001	Retrait esp}ces/CHANGE MANUEL VENTE                         	 
+1026	153	Retrait TND autre Agence par Bord                           	 
+1027	001	Retrait esp}ces/CHANGE MANUEL ACHAT                         	 
+1028	001	Retrait esp}ces/CHANGE MANUEL ACHAT                         	 
+1029	138	Achat BBE contre TND                                        	 
+1030	146	Achat BBE par CR de cpte TND                                	 
+1031	145	Achat BBE par CR cpte  ope exp                              	 
+1032	071	Achat BBE sous delig  aut age                               	 
+1033	041	Change Manuel/ENTREE DE FONDS                               	 
+1034	163	Achat BBE  par crédit cpt TDC                               	 
+1035	041	Change Manuel/Alimentation caisses guic                     	 
+1039	072	Transfert inter caisses                                     	 
+1040	041	Change Manuel/CHARGEMENT GAB                                	 
+1041	041	Change Manuel/Dechargement GAB                              	 
+1042	073	Vente BBE alloc tour contr TND                              	 
+1043	074	Achat BBE allo tou par DB cpt                               	 
+1044	142	Achat BBE alloc tour contr TND                              	 
+1045	041	Change Manuel/Constatation deficit GAB                      	 
+1046	076	Vente BBE frais miss cont esp                               	 
+1047	077	Vente BBE frais soins ctr TND                               	 
+1048	144	Achat BBE frais soins ctr TND                               	 
+1049	078	Vente BBE AVA contre TND                                    	 
+1050	079	Achat BBE dossier AVA  DB cpt                               	 
+1051	169	Vente BBE Doss Scola cont TND                               	 
+1052	162	Achat BBE Doss Scolarité                                    	 
+1053	083	Vente alloc pelerinag cntr TND                              	 
+1054	069	Achat alloc pelerinage db cpte                              	 
+1055	173	Vente BBE fiche d'info cntr TND                             	 
+1056	143	Achat BBE fiche d'info db cpte                              	 
+1057	165	Ann vente BBE allo TR cntr TND                              	 
+1058	167	Annul vente BBE sur alloc tour                              	 
+1059	041	Change Manuel/Rglement Money Gramme                        	 
+1060	041	Change Manuel/Certification de chque                       	 
+1061	166	Ann vente BBE Scol cont TND                                 	 
+1062	174	Ann vent BBE Scol Crd cpt TND                               	 
+1063	175	Reconversion de TND en BBE                                  	 
+1064	086	Retrocession de BBE contre TND                              	 
+1065	041	Change Manuel/Blocage emission chque d                     	 
+1066	041	Change Manuel/Annu.Emission Chque de B                     	 
+1067	154	Retrocess BBE AVA crd cpt TND                               	 
+1068	041	Change Manuel/Loyer Coffre Fort impaye                      	 
+1069	041	Change Manuel/Reglement Loyer impayes                       	 
+1070	041	Change Manuel/Deblocage Garantie coffre                     	 
+1071	041	Change Manuel/Reglement Frais de Stage                      	 
+1072	379	Reglement Bon Cadeau                                        	 
+1073	195	Reglement Facture Frais Ag                                  	 
+1075	152	Envoi de fonds                                              	 
+1076	152	Envoi de fonds                                              	 
+1077	164	Réception Fonds                                             	 
+1078	043	Deficit/Excedent de caisse                                  	 
+1079	043	Deficit/Excedent de caisse                                  	 
+1080	043	Deficit/Excedent de caisse                                  	 
+1081	040	Alimentation Caisse                                         	 
+1082	139	CHARGEMENT GAB                                              	 
+1083	151	Dechargement GAB sur site                                   	 
+1084	141	CHARGEMENT GAB Hors Site                                    	 
+1085	161	Dechargement GAB H.SITE                                     	 
+1086	176	Constatation excedent GAB                                   	 
+1087	177	Constatation d{ficit GAB                                    	 
+1088	126	Constation billets mutiles                                  	 
+1089	088	Envoi billets mutiles                                       	 
+1090	193	Frais des Timbres Fiscaux                                   	 
+1091	193	Frais des Timbres Fiscaux                                   	 
+1092	193	Frais des Timbres Fiscaux                                   	 
+1093	280	Lettre de change                                            	 
+1094	010	Debit                                                       	 
+1095	010	Debit                                                       	 
+1096	127	Emission Mise a disposition                                 	 
+1097	123	Reglement mise a disposition                                	 
+1098	381	Restitution MAD                                             	 
+1099	004	Paiement MoneyGram                                          	 
+1100	124	Blocage ChQ Certifié TND                                    	 
+1101	197	Annul certification cheque                                  	 
+1102	128	Denouement  cheque certifie                                 	 
+1103	010	Debit/Rgl.Benifi saisie arrt                              	 
+1104	010	Debit/Rgl.Benifi saisie arrt                              	 
+1105	147	Blocage emission CHQ de BQE                                 	 
+1106	108	Annulation emission ChQ de BQ                               	 
+1107	010	Debit/Reglement Heritier par vi                             	 
+1108	010	Debit/blocage fonds pour requis                             	 
+1109	010	Debit/deblocage fonds pour requ                             	 
+1110	010	Debit/Rgl.Benific requisition                              	 
+1111	374	Reglement Frais de Stage                                    	 
+1112	010	Debit/bloca fonds pour opp admi                             	 
+1113	010	Debit/Debl. fonds Opp administr                             	 
+1114	010	Debit/Execution Pai.Opp adminis                             	 
+1115	109	Retrait BBE simple par Cheque                               	 
+1116	001	Retrait esp}ces                                             	 
+1117	125	Retrait BBE simple par bord                                 	 
+1118	117	Retrait BBE AVA par bord                                    	 
+1119	001	Retrait esp}ces                                             	 
+1120	118	Versement simple de BBE                                     	 
+1121	040	Alimentation Caisse                                         	0
+1122	156	Vers BBE operation export                                   	0
+1123	159	Versement BBE sur cpte indispo                              	0
+1130	105	Blocage ChQ certifié dev sur cpte D                         	 
+1132	106	Blocage ChQ Certifié en devise                              	 
+1134	152	Envoi de fonds via STE YOSR                                 	 
+1141	152	Satisfaction appel fonds par la CC                          	 
+1142	152	Envoi de fonds propres moyens                               	 
+1146	158	B.Muti en att Remb                                          	 
+1147	398	Remboursement billets mutiles p BCT                         	 
+1150	172	Vers. Esp BAD  BCT propres moyens                           	0
+1151	148	Emission CHQ de BQE pour ATB                                	 
+1152	108	Annu Emission chq de BQ pour la BQ                          	 
+1154	152	Réception de fonds via YOSR                                 	 
+1155	168	Appel de fonds via IBS                                      	 
+1156	194	Satis dde  fonds par la caisse                              	 
+1160	377	Annul compta envoi fds pro moy                              	 
+1161	376	Alim caisse cent recp fonds                                 	 
+1162	119	Compta fonds TND vers BCT conv                              	0
+1163	182	Vers dev BCT via Convoy fonds                               	0
+1164	182	Vers dev BCT via convoy fonds                               	0
+1165	141	CHARGEMENT GAB Hors Site                                    	 
+1166	392	Versement des fonds decharge a BCT                          	 
+1167	382	Vente BBE @ la BCT                                          	0
+1168	383	Versement devises @ la BCT                                  	0
+1174	184	Déficit sur Envoi Fonds via IBS                             	 
+1175	185	Déficit sur Envoi Fonds via YOSR                            	 
+1176	186	Alimentation FR IBS suite déficit                           	 
+1177	186	Alimentation FR YOSR suite déficit                          	 
+1178	187	Excedent  sur envoi de Fonds IBS                            	 
+1179	187	Excedent  sur envoi de Fonds YOSR                           	 
+1180	188	Prélèvement Excédent FR CHEZ IBS                            	 
+1181	188	Prélèvement Excédent FR CHEZ YOSR                           	 
+1182	471	Verse BBE F1F2 par bordereau                                	 
+1183	385	Vente BBE F1F2 par DB Compte TND                            	 
+1184	158	B.Muti en att Remb détecté par ATB                          	 
+1186	171	Vers client BAD IBS                                         	 
+1187	171	Vers client BAD YOSR                                        	 
+1188	189	Vers BCT  BAD IBS                                           	 
+1189	189	Vers BCT  BAD YOSR                                          	 
+1190	399	Retrait monnaies via BAD IBS                                	 
+1191	399	Retrait monnaies via BAD YOSR                               	 
+1201	211	Comm sur vers especes autre ag                              	0
+1202	260	Commission/Comm sur vers especes en                        	0
+1203	260	Commission/commission retrait autre                         	 
+1204	260	Commission/Comm sur retrait especes                        	 
+1205	366	Comm sur retrait deplace                                    	 
+1206	367	Comm sur retrait ChQ deplace                                	 
+1207	260	Commission/Commission lettre de chan                        	 
+1208	260	Commission/Comm. Mise a Dispo.                              	 
+1209	260	Commission/Com.Rg. Money Gramme                            	 
+1210	281	Commission lettre de change/Comm sur Emission Chque        	 
+1211	343	Comm. Mise a Dispo                                          	 
+1212	260	Commission/commission opposition de                         	 
+1213	150	Commission sur émission CHQ de BQE                          	 
+1214	344	Comm Annul Cheque de banque                                 	 
+1215	356	Commission opposition Cheque                                	0
+1216	297	Comm.OPPOS EFFET/Comm sur Leve oppostion e                  	0
+1217	272	Comm Opposition Carte/Comm sur Leve oppostion c             	 
+1218	260	Commission/Com.Demande Chequier                             	 
+1219	260	Commission/Comm Deliv deplace d'un c                        	 
+1220	260	Commission/Com.Destruction des chequ                        	 
+1221	260	Commission/Sousc/Modif contrat loc c                        	 
+1222	260	Commission/Perception loyer                                 	 
+1223	260	Commission/Perception comm loyer imp                        	 
+1224	260	Commission                                                  	 
+1225	465	Regl Loyer Coff Client                                      	0
+1226	466	Com Imp Loyer Coff Clt                                      	 
+1228	387	ComBCT sur Remb Billet Mutil{s                              	 
+1230	260	Commission                                                  	 
+1232	472	Com Vers BBE F1F2                                           	 
+1240	260	Commission                                                  	 
+1241	260	Commission                                                  	 
+1242	260	Commission                                                  	 
+1243	260	Commission                                                  	 
+1244	357	Comm  certification cheque                                  	 
+1245	358	Com Retrait BBE simple par ChQ                              	 
+1247	369	Com Ret BBE simple par bord                                 	 
+1248	359	Com Retrait BBE AVA par bord                                	 
+1250	362	Com Versement simple de BBE                                 	0
+1252	157	Com Vers BBE operation export                               	 
+1253	160	Com Vers BBE sur cpt indsipo                                	 
+1255	040	Alimentation Caisse                                         	 
+1256	040	Alimentation Caisse                                         	 
+1257	040	Alimentation Caisse                                         	 
+1258	040	Alimentation Caisse                                         	 
+1259	260	Commission                                                  	 
+1260	149	Commission dénouement CHQ certifié                          	 
+1270	010	Diff dues aux arrondies                                     	0
+1501	556	Versement especes meme agence                               	0
+1502	561	Versement espece autre agence                               	0
+1503	704	Versement Esp}ces Change/Versement especes en dev          	 
+1504	704	Versement Esp}ces Change/Versement especes en dev          	 
+1505	704	Versement Esp}ces Change/Versement especes mme a          	 
+1506	702	Versement esp}ces sur GAB/Versement especes mme a         	 
+1507	671	Vers especes BQE a Domicile                                 	 
+1508	644	Vers TND sur cpt TNC meme ag                                	 
+1509	740	Direct Credit                                               	 
+1510	740	Direct Credit/Retrait especes mme age                     	 
+1511	740	Direct Credit/Retrait especes mme age                     	 
+1512	705	Deposit - Value Today/Retrait especes autre ag             	 
+1513	567	Retrait especes meme agence                                 	 
+1514	571	Outport Cheque/Retrait especes en devis                    	 
+1515	569	Retrait especes autre agence                                	 
+1516	670	Retrait chq  mm ag sur cpte en dev                          	 
+1517	705	Deposit - Value Today/Retrait especes en devis             	 
+1518	540	Annulation Retrait Especes/Retrait especes mme age        	 
+1519	540	Annulation Retrait Especes/Retrait especes mme age        	 
+1520	572	Retrait Cheque meme agence                                  	 
+1521	540	Annulation Retrait Especes/Retrait especes en devis        	 
+1522	571	Retrait Cheque autre agence                                 	 
+1523	580	Outport Cheque                                              	 
+1524	540	Annulation Retrait Especes                                  	 
+1525	540	Annulation Retrait Especes/CHANGE MANUEL VENTE              	 
+1526	654	Retrait TND autre Agence par Bord                           	 
+1527	540	Annulation Retrait Especes/CHANGE MANUEL ACHAT              	 
+1528	540	Annulation Retrait Especes/CHANGE MANUEL ACHAT              	 
+1529	573	Achat BBE contre TND                                        	 
+1530	648	Vente BBE par CR de cpte TND                                	 
+1531	647	Vente BBE par CR cpte ope exp                               	 
+1532	574	Vente BBE sous delig aut age                                	 
+1533	541	Currency Notes Sold/ENTREE DE FONDS                         	 
+1534	663	Vente BBE                                                   	 
+1535	541	Currency Notes Sold/Alimentation caisses guic               	 
+1539	576	Transfert inter caisses                                     	 
+1540	541	Currency Notes Sold/CHARGEMENT GAB                          	 
+1541	541	Currency Notes Sold/Dechargement GAB                        	 
+1542	577	Vente BBE alloc tour contr TND                              	 
+1543	578	Achat BBE allo tou par DB cpt                               	 
+1544	665	Vente BBE alloc tour contr TND                              	 
+1545	541	Currency Notes Sold/Constatation deficit GAB                	 
+1546	579	Vente BBE frais miss cont esp                               	 
+1547	583	Vente BBE frais soins ctr TND                               	 
+1548	646	Vente BBE frais soins ctr TND                               	 
+1549	585	Vente BBE AVA contre TND                                    	 
+1550	586	Vente BBE dossier AVA DB cpt                                	 
+1551	669	Vente BBE Doss Scola cont TND                               	 
+1552	662	Vente BBE Doss Scolar db cpt                                	 
+1553	587	Vente alloc pelerinag cntr TND                              	 
+1554	588	Vente alloc pelerinage db cpte                              	 
+1555	673	Vente BBE fiche d'info cntr TND                             	 
+1556	645	Vente BBE fiche d'info db cpte                              	 
+1557	676	Ann vente BBE allo TR cntr TND                              	 
+1558	667	Annul vente BBE sur alloc tour                              	 
+1559	541	Currency Notes Sold/Rglement Money Gramme                  	 
+1560	541	Currency Notes Sold/Certification de chque                 	 
+1561	666	Ann vente BBE Scol cont TND                                 	 
+1562	674	Ann vent BBE Scol Crd cpt TND                               	 
+1563	677	Reconversion de TND en BBE                                  	 
+1564	641	Retrocession de BBE contre TND                              	 
+1565	541	Currency Notes Sold/Blocage emission chque d               	 
+1566	541	Currency Notes Sold/Annu.Emission Chque de B               	 
+1567	655	Retrocess BBE AVA                                           	 
+1568	541	Currency Notes Sold/Loyer Coffre Fort impaye                	 
+1569	694	Retroc BBE Scol Crd CPTTND                                  	 
+1570	541	Currency Notes Sold/Deblocage Garantie coffre               	 
+1571	541	Currency Notes Sold/Reglement Frais de Stage                	 
+1572	779	Reglement Bon Cadeau                                        	 
+1573	634	Reglement Facture Frais Ag                                  	 
+1575	653	Envoi de fonds                                              	 
+1576	653	Envoi de fonds                                              	 
+1577	664	Réception Fonds                                             	 
+1578	543	Deficit/Excedent de caisse                                  	 
+1579	543	Deficit/Excedent de caisse                                  	 
+1580	543	Deficit/Excedent de caisse                                  	 
+1581	540	Transfert recu - especes                                    	 
+1582	658	CHARGEMENT GAB                                              	 
+1583	679	Dechargement GAB sur site                                   	 
+1584	661	CHARGEMENT GAB Hors Site                                    	 
+1585	682	Dechargement GAB H.SITE                                     	 
+1586	683	Constatation excedent GAB                                   	 
+1587	684	Constatation d{ficit GAB                                    	 
+1588	535	Constation billets mutiles                                  	 
+1589	604	Envoi billets mutiles                                       	 
+1590	693	                                                            	 
+1591	693	                                                            	 
+1592	693	                                                            	 
+1593	510	Credit                                                      	 
+1594	510	Credit                                                      	 
+1595	510	Credit                                                      	 
+1596	642	Emission Mise a disposition                                 	 
+1597	643	Reglement mise a disposition                                	 
+1598	881	Restitution MAD                                             	 
+1599	504	Paiement MoneyGram - R/E                                    	 
+1600	608	Blocage ChQ Certifié TND                                    	 
+1601	636	Annul certification cheque                                  	 
+1602	626	Denouement  cheque certifie                                 	 
+1603	510	Credit/Rgl.Benifi saisie arrt                             	 
+1604	510	Credit/Rgl.Benifi saisie arrt                             	 
+1605	649	Blocage emission CHQ de BQE                                 	 
+1606	619	Annulation emission ChQ de BQ                               	 
+1607	510	Credit/Reglement Heritier par vi                            	 
+1608	510	Credit/blocage fonds pour requis                            	 
+1609	510	Credit/deblocage fonds pour requ                            	 
+1610	510	Credit/Rgl.Benific requisition                             	 
+1611	774	Reglement Frais de Stage                                    	 
+1612	510	Credit/bloca fonds pour opp admi                            	 
+1613	510	Credit/Debl. fonds Opp administr                            	 
+1614	510	Credit/Execution Pai.Opp adminis                            	 
+1615	621	Retrait BBE simple par Cheque                               	 
+1616	540	Annulation Retrait Especes                                  	 
+1617	622	Retrait BBE simple par bord                                 	 
+1618	623	Retrait BBE AVA par bordereau                               	 
+1619	540	Annulation Retrait Especes                                  	 
+1620	624	Versement simple de BBE                                     	 
+1621	701	Versement esp}ces                                           	 
+1622	656	Vers BBE operation export                                   	 
+1623	659	Versement BBE sur cpte indispo                              	 
+1630	609	Certification  cheque Dev sur cpte                          	 
+1632	627	Blocage ChQ certifié en devise                              	 
+1634	653	Envoi de fonds via STE YOSR                                 	 
+1641	653	Satisfaction appel fonds par la CC                          	 
+1642	653	Envoi de fonds propres moyens                               	 
+1646	685	B.Muti en att Remb                                          	 
+1647	898	Remboursement billets mutiles p BCT                         	 
+1650	672	Vers. Esp BAD  BCT propres moyens                           	 
+1651	650	Emission CHQ de BQE pour ATB                                	 
+1652	619	Annu Emission chq de BQ pour la BQ                          	 
+1654	653	Réception de fonds via YOSR                                 	 
+1655	668	Appel de fonds via IBS                                      	 
+1656	628	Satis dde  fonds par la caisse                              	 
+1660	777	Annul compta envoi fds pro moy                              	 
+1661	776	Alim caisse cent recp fonds                                 	 
+1662	625	Compta vers fonds TND BCT conv                              	 
+1663	639	Vers dev BCT via Convoy fonds                               	 
+1664	639	Vers dev BCT via convoy fonds                               	 
+1665	682	DECHARGEMENT GAB Hors Site                                  	 
+1666	892	Versement des fonds decharge a BCT                          	 
+1667	708	Vente BBE @ la BCT                                          	 
+1668	709	Versement devises @ la BCT                                  	 
+1674	686	Déficit sur Envoi Fonds via IBS                             	 
+1675	687	Déficit sur Envoi Fonds via YOSR                            	 
+1676	688	Alimentation FR IBS suite déficit                           	 
+1677	688	Alimentation FR YOSR suite déficit                          	 
+1678	689	Excedent  sur envoi de Fonds IBS                            	 
+1679	689	Excedent  sur envoi de Fonds YOSR                           	 
+1680	690	Prélèvement Excédent FR CHEZ IBS                            	 
+1681	690	Prélèvement Excédent FR CHEZ YOSR                           	 
+1682	771	Verse BBE F1F2 par bordereau                                	 
+1683	885	Vente BBE F1F2 par DB cpt TND                               	 
+1684	685	B.Muti en att Remb détecté par ATB                          	 
+1686	671	Vers client BAD IBS                                         	 
+1687	671	Vers client BAD YOSR                                        	 
+1688	691	Vers BCT  BAD IBS                                           	 
+1689	691	Vers BCT  BAD YOSR                                          	 
+1690	715	Retrait monnaies via BAD IBS                                	 
+1691	715	Retrait monnaies via BAD YOSR                               	 
+1701	766	Commission/Comm sur vers especes au                        	 
+1702	766	Commission/Comm sur vers especes en                        	 
+1703	767	Commission/commission retrait autre                         	 
+1704	767	Commission/Comm sur retrait especes                        	 
+1705	760	Commission                                                  	 
+1706	760	Commission                                                  	 
+1707	760	Commission/Commission lettre de chan                        	 
+1708	760	Commission/Comm. Mise a Dispo.                              	 
+1709	760	Commission/Com.Rg. Money Gramme                            	 
+1710	760	Commission/Comm sur Emission Chque                         	 
+1711	675	Comm. Mise a Dispo                                          	 
+1712	760	Commission/commission opposition de                         	 
+1713	652	Commission sur émission CHQ de BQE                          	 
+1714	760	Commission/Comm.Opposition carte ban                        	 
+1715	760	Commission/Comm.sur Leve oppostion c                        	 
+1716	760	Commission/Comm sur Leve oppostion e                        	 
+1717	760	Commission/Comm sur Leve oppostion c                        	 
+1718	760	Commission/Com.Demande Chequier                             	 
+1719	760	Commission/Comm Deliv deplace d'un c                        	 
+1720	760	Commission/Com.Destruction des chequ                        	 
+1721	760	Commission/Sousc/Modif contrat loc c                        	 
+1722	760	Commission/Perception loyer                                 	 
+1723	760	Commission/Perception comm loyer imp                        	 
+1724	760	Commission                                                  	 
+1725	782	Regl Loyer Coff Client                                      	 
+1726	783	Com Imp Loyer Coff Clt                                      	 
+1728	787	ComBCT sur Remb Billet Mutil{s                              	 
+1730	760	Commission                                                  	 
+1732	772	Com Vers BBE F1F2                                           	 
+1740	760	Commission                                                  	 
+1741	760	Commission                                                  	 
+1742	760	Commission                                                  	 
+1743	760	Commission                                                  	 
+1744	760	Commission                                                  	 
+1752	657	Com Vers BBE operation export                               	 
+1753	660	Com Vers BBE sur cpt indsipo                                	 
+1755	760	Direct Credit                                               	 
+1756	760	Direct Credit                                               	 
+1757	760	Direct Credit                                               	 
+1758	760	Direct Credit                                               	 
+1759	760	Commission                                                  	 
+1760	651	Commission dénouement CHQ certifié                          	 
+1770	510	Diff dues aux arrondies                                     	0
+213 	389	Account Succession                                          	 
+258 	889	Account Succession                                          	 
+3023	454	Reglement mise en jeu                                       	 
+3031	020	Transfert Emis                                              	 
+3060	406	Transfert Re\u                                              	 
+3200	263	Commission Ouerture LC                                      	 
+3207	494	Commission Cloture COMEX                                    	 
+3209	384	COMMISSION DRAFT                                            	 
+3210	384	COM sur Dossier COMEX                                       	 
+3212	384	Commission sur Dossier COMEX                                	 
+3213	266	Com de confirmation LC                                      	 
+3214	384	Commission sur Dossier COMEX                                	 
+3219	227	Commission Frais de dossier                                 	 
+3241	456	Com Ouvt Lettre de Garantie                                 	 
+3263	384	Commission sur Dossier COMEX                                	 
+3270	311	Commission Port de Lettre                                   	 
+3271	230	COMMISSION SWIFT                                            	 
+3291	221	Commission Transfert Re\u                                   	 
+3293	457	Com de mise en jeu                                          	 
+3296	352	Comm Domicilia Fiche investi                                	 
+3297	353	Comm Modifica Fiche investi                                 	 
+3298	354	Comm Annula Fiche investi                                   	 
+3310	384	Comm Ouverture Dossier AVA                                  	0
+3311	347	Comm Renouv Dossier AVA                                     	 
+3312	350	Comm attestation Clot Doss AVA                              	 
+3313	348	Comm Lev{e de suspension AVA                                	 
+3314	349	Comm Clôture Dossier AVA                                    	 
+3315	351	Comm relev{e de mouvement AVA                               	 
+3523	716	Reglement mise en jeu                                       	 
+3531	520	Transfert Recu                                              	 
+3560	906	Transfert Re\u                                              	 
+3700	884	COM sur Operation COMEX                                     	 
+3709	760	COMMISSION DRAFT                                            	 
+3710	884	COM sur Operation COMEX                                     	 
+3712	760	Com Ouv Notif CREDOC EXP                                    	 
+3719	760	Com frais dossier CDE                                       	 
+3741	717	Com Ouvt Lettre de Garantie                                 	 
+3763	884	Commission sur Dossier COMEX                                	 
+3770	531	Commission Port de Lettre                                   	 
+3771	760	Commission                                                  	 
+3788	384	COM sur Dossier COMEX                                       	 
+3793	718	Com de mise en jeu                                          	 
+3796	753	Comm Domicilia Fiche investi                                	 
+3797	755	Comm Modifica Fiche investi                                 	 
+3798	756	Comm Annula Fiche investi                                   	 
+3800	884	COM sur Operation COMEX                                     	 
+3810	884	Comm Ouverture Dossier AVA                                  	 
+3811	737	Comm Renouv Dossier AVA                                     	 
+3812	751	Comm attestation Clot Doss AVA                              	 
+3813	738	Comm Lev{e de suspension AVA                                	 
+3814	739	Comm Clôture Dossier AVA                                    	 
+3815	752	Comm relev{e de mouvement AVA                               	 
+3900	760	Commission                                                  	 
+403 	620	Placement Repayment                                         	 
+436 	120	Remb placement                                              	 
+437 	870	Placement Maturity                                          	 
+500 	995	COMEX MPG                                                   	 
+520 	495	COMEX MPG                                                   	 
+521 	995	COMEX MPG                                                   	 
+6070	490	Virement SGMT Emis                                          	 
+6071	492	Virement SGMT re\u                                          	 
+6220	491	Commission Virement SGMT                                    	 
+6221	493	Commission Virement SGMT re\u                               	 
+6570	990	Virement SGMT Emis                                          	 
+6571	992	Virement SGMT re\u                                          	 
+6720	991	Commission Virement SGMT                                    	 
+6721	993	Commission Virement SGMT re\u                               	 
+7051	388	RS sous deleg de change                                     	0
+7085	270	TVA/Commission                                              	 
+7086	270	TVA/Commission                                              	0
+7551	888	RS sous deleg de change                                     	 
+7585	770	TVA/Commission                                              	 
+7586	770	TVA/Commission                                              	 
+8389	489	Correction Erreur                                           	 
+8889	989	Correction Erreur                                           	 
+9023	272	Comm Opposition Carte                                       	0
+8071	462	R{servation Mnt Ch}que                                      	 
+8072	962	D{blocage mnt Ch}que                                        	 
+694 	541	Currency Notes Sold/Reglement Loyer impayes                 	 
+6073	492	Virement SGMT recu                                          	 
+6573	992	Virement SGMT recu                                          	 
+6225	493	Commission Virement SGMT recu                               	 
+6725	993	Commission Virement SGMT recu                               	 
+7030	135	Avance allocation CNSS                                      	 
+7031	135	Vir reÃ§us Inst Aff. (Av Frais Medi                         	 
+7036	135	Cotisation CNSS                                             	 
+7038	135	Redevance Caisse compensation                               	 
+7040	135	ETAT TFP A PAYER                                            	 
+7042	135	Prelevements UGTT                                           	 
+7043	135	ETAT FOPROLOS A PAYER                                       	 
+7044	135	Cotisation assurance groupe                                 	 
+7050	135	Etat retenue sur salaire IRPP                               	 
+7080	135	Cession sur salaire                                         	 
+7201	135	Salaire grille                                              	 
+7202	135	Indemnite de representation                                 	 
+7203	135	Indemnite de logement                                       	 
+7204	135	Indemnite de fonction                                       	 
+7205	135	Indemnite de technicite                                     	 
+7206	135	Indemnite Cadre                                             	 
+7207	135	Indemnites Echelle                                          	 
+7210	135	Indemnite de transport                                      	 
+7211	135	Charges Sociales Cotisation CN                              	 
+7212	135	Cotisation regime complementai                              	 
+7212	135	Charge Sociale Cotisation Regi                              	 
+7213	135	Charge assurance groupe                                     	 
+7214	135	Heures supplementaires service                              	 
+7225	135	Provision conges payes                                      	 
+7227	135	Montant des Remunerations dues                              	 
+7231	135	Complement de salaire                                       	 
+7240	135	TFP                                                         	 
+7232	135	FOPROLOS                                                    	 
+7233	010	ASSURANCE COMPLeMENT RETRAITE                               	 
+7234	010	COTISATION EXCEP                                            	 
+7235	010	CAISSE CHOMAGE                                              	 
+7236	010	HEURES SUPPLeMENTAIRES FORMATI                              	 
+7237	010	PRIMES DIVERSES                                             	 
+7238	010	ASSURANCE COMPLeMENT RETRAITE                               	 
+7239	010	CAISSE CHOMAGE                                              	 
+7580	512	Cession sur salaire                                         	 
+7531	512	Vir reÃ§us Inst Aff (Av Frais Medic                         	 
+7550	512	Etat retenue sur salaire IRPP                               	 
+7540	512	ETAT TFP A PAYER                                            	 
+7543	512	ETAT FOPROLOS A PAYER                                       	 
+4241	260	Frais Rech Docu Archiv                                      	 
+4741	760	Frais Rech Docu Archiv                                      	 
+4240	260	Deliv Attes CR                                              	 
+4740	760	Deliv Attes CR                                              	 
+7278	260	Frais Rech Docu Cpt Clt                                     	 
+7778	760	Frais Rech Docu Cpt Clt                                     	 
+4244	260	Comm Image CHQ                                              	 
+4744	760	Comm Image CHQ                                              	 
+4243	260	Comm Image Eff                                              	 
+4743	760	Comm Image Eff                                              	 
+8135	135	Charge Salaire                                              	 
+8510	510	Charge Salaire                                              	 
+8512	512	Charge Salaire                                              	 
+8544	544	Charge Salaire                                              	 
+461 	461	Tombee Echeance                                             	 
+961 	961	Tombee Echeance                                             	 
+3205	384	Comm de realisation LCI                                     	 
+3705	884	Comm de realisation LCI                                     	 
+520 	326	LC Provision Margin-Debit                                   	 
+3203	384	Comm COMEX                                                  	 
+3703	884	Comm COMEX                                                  	 
+856 	120	Remb Placement                                              	 
+4515	620	Placement Repayment                                         	 
+857 	120	Remb Placlement                                             	 
+4517	620	Placlement Repayment                                        	 
+3110	463	Multi-Compte Transfert                                      	 
+3610	963	Multi-Compte Transfert                                      	 

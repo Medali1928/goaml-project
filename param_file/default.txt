@@ -1,0 +1,16 @@
+PART_1_ROLE=I
+PART_2_IS_MY_CLIENT=Y
+PART_2_ACCOUNT=5821052629600
+COUNTRY_1=TN
+COUNTRY_2=TN
+TRANSACTION_LOCATION=TN
+TRANSACTION_STATUS_CODE=C
+NAR=N.A
+SOURCE=DEFAULT
+_merge=left_only
+
+# Fallback goAML mapping values used when a transaction code is missing from accountant_trx.xlsx.
+# These values avoid invalid <...>nan</...> XML, but the exported fallback report should still be reviewed.
+DEFAULT_TRANSACTION_CODE_GOAML=B200
+DEFAULT_FUND_CODE_1=A
+DEFAULT_FUND_CODE_2=A
