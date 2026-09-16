@@ -57,7 +57,9 @@ class DatabaseConnection:
                 self.connection = pyodbc.connect(
                     f"DRIVER={{ODBC Driver 17 for SQL Server}};"
                     f"SERVER={self.server};DATABASE={self.database};"
-                    f"UID={self.username};PWD={self.password}"
+                    f"UID={self.username};PWD={self.password};"
+                    f"Encrypt=yes;TrustServerCertificate=yes;Connection Timeout=30"
+
                 )
                 print("Connection established successfully.")
             except pyodbc.Error as e:
